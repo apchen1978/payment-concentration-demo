@@ -1,5 +1,5 @@
 /**
- * app.js — Shadow-002 minimum UI wiring.
+ * app.js — minimum UI wiring.
  * Renders the editable payment-event table from the default fixture and
  * recalculates the rolling 7-day peak on every edit.
  * No persistence, no external calls, no charts.
