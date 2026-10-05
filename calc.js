@@ -1,5 +1,5 @@
 /**
- * calc.js — Shadow-002 disposable prototype calculation.
+ * calc.js — prototype calculation.
  *
  * Deterministic rolling 7-calendar-day peak commitment calculation.
  * - Input: payment events [{ deal, date: "YYYY-MM-DD", amount, currency }]
@@ -57,7 +57,7 @@
    * @param {Array<{day:number, amount:number}>} events
    * @returns {{start:number, end:number, total:number}}
    *
-   * Reporting rule (owner-approved, Shadow-002): among all 7-calendar-day
+   * Reporting rule (agreed rule): among all 7-calendar-day
    * windows achieving the maximum total, the displayed window is anchored to
    * an actual contributing payment-event date — i.e. prefer a window whose
    * start day has at least one payment event; earliest such start wins ties.

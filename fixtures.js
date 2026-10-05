@@ -1,8 +1,8 @@
 /**
- * fixtures.js — Shadow-002 default fixture (synthetic data only).
+ * fixtures.js — default fixture (demo data only).
  *
  * Exactly Deal A / Deal B / Deal C. Deal C is the proposed new deal.
- * EXACT canonical six-event fixture from Luna's Contract (owner-confirmed):
+ * Canonical six-event fixture:
  *
  *   Deal A | USD | Deposit | Sep 01 | 20,000
  *   Deal A | USD | Balance | Oct 12 | 45,000
